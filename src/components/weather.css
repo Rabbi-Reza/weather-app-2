@@ -1,0 +1,76 @@
+.weather {
+  position: center;
+  margin-top: 5px;
+  border: 3px dashed grey;
+  border-radius: 20px;
+  padding-bottom: 30px;
+  width: max-content;
+  padding: 5px 20px;
+  margin-left: 25%;
+  background-color: rgb(228, 222, 222);
+  background-image: url("../images/home2-bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+  height: 95%;
+  width: 45%;
+}
+.weather .title {
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.weather form {
+  margin-top: 30px;
+}
+.weather form input {
+  padding: 10px;
+  border: none;
+  /* border-bottom: 2px dashed rgb(2, 57, 88); */
+  margin-right: 10px;
+}
+
+.weather form input:focus {
+  outline: none;
+  border-bottom: 2px dashed rgb(2, 57, 88);
+}
+
+.weather .getweather {
+  margin-left: 10px;
+  padding: 8px;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 20px;
+  border: 2px solid black;
+  background: rgb(2, 57, 88, 0.8);
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.weather .getweather:hover {
+  background: transparent;
+  color: black;
+}
+
+.weather .getweather:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .weather {
+    position: center;
+    margin-top: 0px;
+    border: 3px dashed grey;
+    border-radius: 20px;
+    padding-bottom: 00px;
+    width: max-content;
+    padding: 5px;
+    margin-left: 5%;
+    background-color: rgb(228, 222, 222);
+    background-image: url("../images/home2-bg.jpg");
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease;
+    height: 5%;
+    width: 45%;
+  }
+}

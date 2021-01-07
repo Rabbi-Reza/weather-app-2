@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+  background-image: url("../src/images/bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+  height: 720px;
+}
